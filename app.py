@@ -14,12 +14,13 @@ app.config['UPLOAD_FOLDER'] = params['upload_location']
 def uplaod_image():
     return render_template("index1.html")
 
-@app.route("/uploader" , methods=['GET', 'POST'])
+@app.route("/upload" , methods=['GET', 'POST'])
 def uploader():
     if request.method=='POST':
         f = request.files['file1']
         f.save(os.path.join(app.config['UPLOAD_FOLDER'], secure_filename(f.filename)))
-        return "Uploaded successfully!"
+        ff=os.path.join(app.config['UPLOAD_FOLDER'], secure_filename(f.filename))
+        return fish()
 
 @app.route('/fish')
 def fish():
