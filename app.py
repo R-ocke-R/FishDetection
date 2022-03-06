@@ -18,13 +18,13 @@ def uplaod_image():
 def uploader():
     if request.method=='POST':
         f = request.files['file1']
-        f.save(os.path.join(app.config['UPLOAD_FOLDER'], secure_filename(f.filename)))
-        ff=os.path.join(app.config['UPLOAD_FOLDER'], secure_filename(f.filename))
-        return fish()
+        f.save(os.path.join(app.config['UPLOAD_FOLDER'], "123.jpg"))
+        filename=os.path.join(app.config['UPLOAD_FOLDER'], "123.jpg")
+        return render_template("index2.html", filename=filename)
 
 @app.route('/fish')
-def fish():
-    return render_template("index2.html")
+def fish(filename): 
+    return render_template("index2.html",filename=filename)
 
 if __name__=="__main__":
     app.run(debug=True)
