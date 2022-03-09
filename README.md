@@ -7,3 +7,7 @@ Front-end using Flask.
 
 # Problem
 Cannot connect backend with frontend.
+
+
+# Update 
+Deleted jupyter notebook DL file due to some issues
