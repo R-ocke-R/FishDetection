@@ -37,6 +37,19 @@ FishDetection is a web application for detecting fish species from a user upload
     - Upload a fish image.
     - View the uploaded image and detection result.
 
+## Dataset
+Link to the Dataset I've used - 
+https://www.kaggle.com/datasets/sripaadsrinivasan/fish-species-image-data
+
+
+Description
+Fish Species dataset currently consisting of 3,960 images collected from 468 species.
+Data consists of real-world images of fish captured in 3 conditions defined as "controlled", "out-of-the-water" and "in-situ".
+The "controlled", images consists of fish specimens, with their fins spread, taken against a constant background with controlled illumination.
+The "in-situ" images are underwater images of fish in their natural habitat and so there is no control over background or illumination. The "out-of-the-water" images consist of fish specimens, taken out of the water with a varying background and limited control over the illumination conditions.
+
+
+
 ## Project Structure
 
 ```
