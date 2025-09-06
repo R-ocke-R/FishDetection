@@ -1,4 +1,4 @@
-from flask import Flask, escape, request, render_template
+from flask import Flask, request, render_template
 import os
 from werkzeug.utils import secure_filename
 import json

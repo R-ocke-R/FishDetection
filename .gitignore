@@ -111,3 +111,6 @@ Data/
 #yolo models
 runs/
 *.pt
+merge_yolo-*.weights
+merge_yolo-*.cfg
+yolo-fish-1.cfg
