@@ -106,4 +106,5 @@ Desktop.ini
 
 
 #yolo models
+runs/
 *.pt
