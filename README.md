@@ -81,3 +81,12 @@ This project was born out of my very first hackathon during my undergraduate day
 Despite the excitement and the long nights, we faced some technical hurdles and couldn’t connect the backend to the frontend in time, so we didn’t win the hackathon. But this project holds a very special place in my heart—not because of the result, but because of what it set in motion. It was the starting point that led me to my very first research assistantship, which later culminated in a published research paper. Along the way, I also met the professor who eventually became my research advisor. Looking back, I realize that so many pivotal events in my academic journey stemmed from this one project.
 
 But this project will always held a special place in my heart. So now, I'm revisiting it with fresh perspective and determination—because it’s not just a hackathon idea, but a project that shaped who I became as a researcher.
+
+
+## Process 
+
+1. I want to understand the best SOTA for species and image detection - based on some research I am fine tuning  a yolov8m.pt on my dataset. 
+2. I created the object dimension map for my fish detection images (for now I've selected the cropped folder of the dataset and selcted the entire width + height to be the dimensions using the script in data_mapping.py file)
+3. I tried fine tuning on my Mac M4 - but I only "tried" it, to see if it works well - I don't wanna fry my Mac so ran only one Epoc. 
+4. Now Running the file on Google Colab and will be saving and important the fine tuned parameters to build the overall system. 
+    

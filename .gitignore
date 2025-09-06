@@ -102,6 +102,9 @@ Thumbs.db
 ehthumbs.db
 Desktop.ini
 
+#MacOS
+.DS_Store
+Data/
 
 
 
