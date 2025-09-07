@@ -21,7 +21,7 @@ But this project will always held a special place in my heart. So now, I'm revis
 
 
 ## Project Structure
-
+```
 FishDetection/
 ├── configs/
 │   └── config.json              # Configuration file for upload location
@@ -42,6 +42,7 @@ FishDetection/
 ├── .gitignore
 ├── LICENSE
 └── README.md
+```
 
 
 
